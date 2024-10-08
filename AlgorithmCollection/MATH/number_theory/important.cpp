@@ -12,11 +12,9 @@ int EulerSieve(int n) {
     memset(vis,0,sizeof(vis));
     memset(prime,0,sizeof(prime));
 
-    for (int i = 2; i <= n; i++)
-    {
+    for (int i = 2; i <= n; i++) {
         if (!vis[i]) prime[cnt++] = i;
-        for (int j = 0; j < cnt; j++)  
-        {
+        for (int j = 0; j < cnt; j++) {
             if (i * prime[j] > n) break;
             vis[i * prime[j]] = 1;
             if (i % prime[j] == 0) break;
