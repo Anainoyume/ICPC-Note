@@ -21,7 +21,7 @@ bool setColor() {
         for (auto&& to : edges[u]) {
             if (!color[to]) {
                 if (!dfs(to, 3 - col)) return false;
-            }
+            } 
             if (color[to] == color[u]) return false;
         }
         return true;
