@@ -1,6 +1,8 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// O(n+m)
+
 bool setColor() {
     int n, m;
     cin >> n >> m;

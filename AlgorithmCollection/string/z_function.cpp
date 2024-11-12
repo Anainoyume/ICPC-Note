@@ -4,6 +4,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+// 返回的 Z函数 数组下标从 0 开始
 vector<int> z_function(string s) {
     int n = s.size();
     vector<int> z(n);

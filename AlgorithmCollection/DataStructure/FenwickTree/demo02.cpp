@@ -49,7 +49,7 @@
     下标： 1   2   3   4   5   6    7   8   9   10  11   12   13   14   15   16
           8   14   1   19  5  10   1   31  3    5   1   10   9    9    7    61
  */
-#include "../head.h"
+#include <bits/stdc++.h>
 using namespace std;
 
 //求lowBit函数
